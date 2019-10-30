@@ -49,7 +49,7 @@ class ViewController: UIViewController {
             binaryVal = String(one) + String(two) + String(three) + String(four) + String(five) + String(six) + String(seven) + String(eight)
         
         binaryLabel.text = binaryVal
-        let number = String(decoding: binaryVal, as: UTF8.self)
+        let number:Int = Int(binaryVal, radix: 2)!
         bigCharLabel.text = String(number)
         
         }
