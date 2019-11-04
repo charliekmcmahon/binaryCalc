@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222696DF236FE391000B00B8 /* beautiful-color-ui-gradients-backgrounds-endless-river (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 222696DE236FE391000B00B8 /* beautiful-color-ui-gradients-backgrounds-endless-river (1).png */; };
 		22DD2A77236686A9001FD2A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD2A76236686A9001FD2A4 /* AppDelegate.swift */; };
 		22DD2A79236686A9001FD2A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD2A78236686A9001FD2A4 /* SceneDelegate.swift */; };
 		22DD2A7B236686A9001FD2A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD2A7A236686A9001FD2A4 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		222696DE236FE391000B00B8 /* beautiful-color-ui-gradients-backgrounds-endless-river (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beautiful-color-ui-gradients-backgrounds-endless-river (1).png"; sourceTree = "<group>"; };
 		22DD2A73236686A9001FD2A4 /* binaryCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = binaryCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22DD2A76236686A9001FD2A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22DD2A78236686A9001FD2A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				22DD2A8C236686AD001FD2A4 /* binaryCalcTests */,
 				22DD2A97236686AD001FD2A4 /* binaryCalcUITests */,
 				22DD2A74236686A9001FD2A4 /* Products */,
+				222696DE236FE391000B00B8 /* beautiful-color-ui-gradients-backgrounds-endless-river (1).png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22DD2A83236686AD001FD2A4 /* LaunchScreen.storyboard in Resources */,
+				222696DF236FE391000B00B8 /* beautiful-color-ui-gradients-backgrounds-endless-river (1).png in Resources */,
 				22DD2A80236686AD001FD2A4 /* Assets.xcassets in Resources */,
 				22DD2A7E236686A9001FD2A4 /* Main.storyboard in Resources */,
 			);
