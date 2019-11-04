@@ -48,9 +48,17 @@ class ViewController: UIViewController {
         
             binaryVal = String(one) + String(two) + String(three) + String(four) + String(five) + String(six) + String(seven) + String(eight)
         
-        binaryLabel.text = binaryVal
-        let number:Int = Int(binaryVal, radix: 2)!
-        bigCharLabel.text = String(number)
+    
+        let binaryBits = String(binaryVal)
+        var index = binaryBits.startIndex
+        var result: String = ""
+        for _ in 0..<binaryBits.count/8 {
+            let nextIndex = binaryBits.index(index, offsetBy: 8)
+            let charBits = binaryBits[index..<nextIndex]
+            result += String(UnicodeScalar(UInt8(charBits, radix: 2)!))
+            index = nextIndex
+        }
+        bigCharLabel.text = result
         
         }
     
@@ -65,6 +73,18 @@ class ViewController: UIViewController {
             binaryVal = String(one) + String(two) + String(three) + String(four) + String(five) + String(six) + String(seven) + String(eight)
         
         binaryLabel.text = binaryVal
+        
+        let binaryBits = String(binaryVal)
+        var index = binaryBits.startIndex
+        var result: String = ""
+        for _ in 0..<binaryBits.count/8 {
+            let nextIndex = binaryBits.index(index, offsetBy: 8)
+            let charBits = binaryBits[index..<nextIndex]
+            result += String(UnicodeScalar(UInt8(charBits, radix: 2)!))
+            index = nextIndex
+        }
+        bigCharLabel.text = result
+        
     }
     
     
@@ -79,6 +99,18 @@ class ViewController: UIViewController {
             binaryVal = String(one) + String(two) + String(three) + String(four) + String(five) + String(six) + String(seven) + String(eight)
         
         binaryLabel.text = binaryVal
+        
+        let binaryBits = String(binaryVal)
+        var index = binaryBits.startIndex
+        var result: String = ""
+        for _ in 0..<binaryBits.count/8 {
+            let nextIndex = binaryBits.index(index, offsetBy: 8)
+            let charBits = binaryBits[index..<nextIndex]
+            result += String(UnicodeScalar(UInt8(charBits, radix: 2)!))
+            index = nextIndex
+        }
+        bigCharLabel.text = result
+        
     }
     
     @IBAction func sFourChanged(_ sender: Any) {
@@ -92,6 +124,18 @@ class ViewController: UIViewController {
             binaryVal = String(one) + String(two) + String(three) + String(four) + String(five) + String(six) + String(seven) + String(eight)
         
         binaryLabel.text = binaryVal
+        
+        let binaryBits = String(binaryVal)
+        var index = binaryBits.startIndex
+        var result: String = ""
+        for _ in 0..<binaryBits.count/8 {
+            let nextIndex = binaryBits.index(index, offsetBy: 8)
+            let charBits = binaryBits[index..<nextIndex]
+            result += String(UnicodeScalar(UInt8(charBits, radix: 2)!))
+            index = nextIndex
+        }
+        bigCharLabel.text = result
+        
     }
     
     @IBAction func sFiveChanged(_ sender: Any) {
@@ -105,6 +149,18 @@ class ViewController: UIViewController {
             binaryVal = String(one) + String(two) + String(three) + String(four) + String(five) + String(six) + String(seven) + String(eight)
         
         binaryLabel.text = binaryVal
+        
+        let binaryBits = String(binaryVal)
+        var index = binaryBits.startIndex
+        var result: String = ""
+        for _ in 0..<binaryBits.count/8 {
+            let nextIndex = binaryBits.index(index, offsetBy: 8)
+            let charBits = binaryBits[index..<nextIndex]
+            result += String(UnicodeScalar(UInt8(charBits, radix: 2)!))
+            index = nextIndex
+        }
+        bigCharLabel.text = result
+        
     }
     
     @IBAction func sSixChanged(_ sender: Any) {
@@ -118,6 +174,18 @@ class ViewController: UIViewController {
             binaryVal = String(one) + String(two) + String(three) + String(four) + String(five) + String(six) + String(seven) + String(eight)
         
         binaryLabel.text = binaryVal
+        
+        let binaryBits = String(binaryVal)
+        var index = binaryBits.startIndex
+        var result: String = ""
+        for _ in 0..<binaryBits.count/8 {
+            let nextIndex = binaryBits.index(index, offsetBy: 8)
+            let charBits = binaryBits[index..<nextIndex]
+            result += String(UnicodeScalar(UInt8(charBits, radix: 2)!))
+            index = nextIndex
+        }
+        bigCharLabel.text = result
+        
     }
     
     @IBAction func sSevenChanged(_ sender: Any) {
@@ -131,6 +199,18 @@ class ViewController: UIViewController {
             binaryVal = String(one) + String(two) + String(three) + String(four) + String(five) + String(six) + String(seven) + String(eight)
         
         binaryLabel.text = binaryVal
+        
+        let binaryBits = String(binaryVal)
+        var index = binaryBits.startIndex
+        var result: String = ""
+        for _ in 0..<binaryBits.count/8 {
+            let nextIndex = binaryBits.index(index, offsetBy: 8)
+            let charBits = binaryBits[index..<nextIndex]
+            result += String(UnicodeScalar(UInt8(charBits, radix: 2)!))
+            index = nextIndex
+        }
+        bigCharLabel.text = result
+        
     }
     
     @IBAction func sEightChanged(_ sender: Any) {
@@ -144,9 +224,20 @@ class ViewController: UIViewController {
             binaryVal = String(one) + String(two) + String(three) + String(four) + String(five) + String(six) + String(seven) + String(eight)
         
         binaryLabel.text = binaryVal
+        
+        let binaryBits = String(binaryVal)
+        var index = binaryBits.startIndex
+        var result: String = ""
+        for _ in 0..<binaryBits.count/8 {
+            let nextIndex = binaryBits.index(index, offsetBy: 8)
+            let charBits = binaryBits[index..<nextIndex]
+            result += String(UnicodeScalar(UInt8(charBits, radix: 2)!))
+            index = nextIndex
+        }
+        bigCharLabel.text = result
+        
     }
     
-    // 
     
     
     
